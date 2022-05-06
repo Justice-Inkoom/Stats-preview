@@ -1,6 +1,6 @@
-/*This file is the brain-child of Justice Inkoom*/
+/*This is a brainchild of Justice Inkoom*/ 
 
-  body{
+body{
     font-family:lexend deca;
   }
     .attribution { font-size: 11px; text-align: center; }
@@ -21,8 +21,10 @@
 	  padding:5px;
 	  margin:0 auto;
     }
-	.img-div{
-	
+	.img-div, .blind{
+	  width:350px;
+	  height:400px;
+	  margin-left:0px;
 	}
 	img{
 	  width:350px;
@@ -37,22 +39,25 @@
 	  margin-top:25px;
 	  margin-left:25px;
 	  margin-right:35px;
+	  margin-bottom:50px;
 	  color:white;
 	}
 	code{
-	  color:hsl(277, 64%, 61%)
+	  color:hsl(277, 64%, 61%);
+	  
 	}
 	p{
+	  margin-top:5px;
 	  color:hsla(0, 0%, 100%, 0.75);
 	  margin-left:25px;
-	  margin-right:35px.
+	  margin-right:35px;
 	}
 	
 	.table{
 	  display:table;
 	  margin:0 auto;
 	  color:hsla(0, 0%, 100%, 0.75);
-	  margin-top:150px;
+	  margin-top:70px;
 	}
 
 	.trident-list{
@@ -86,4 +91,7 @@
 	  margin-top:0px;
 	}
 	
-
+	.blind{
+	  color:hsl(277, 64%, 61%);
+	  opacity:0.5;
+	}
